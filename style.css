@@ -1,0 +1,65 @@
+header {
+
+    float: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+h1 {
+    float: center;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    background-color: green;
+}
+
+/*outside box*/
+/*outside container that holds everything*/
+.main-section {
+    float: center;
+    width: 90%;
+    box-shadow: 3px 3px 25px #888888;
+}
+
+/* large text area */
+
+#password {
+    text-align: center;
+    float: center;
+    background-color: #ffffff;
+}
+
+/* generate and copy buttons */
+
+.button {
+    color: #ffffff !important;
+    text-decoration: none;
+    background: red;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+}
+
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
