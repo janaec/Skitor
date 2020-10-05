@@ -7,6 +7,8 @@ Objective: Create a random password generator that produces between 8 & 128 char
   <li> Step Three: The user is asked if they want upper case letters. 
   <li> Step Four: The user is asked if they want special characters. 
   <li> Step Five: The user is asked if they want numbers in their password. 
+
+Once all promptsw are answered, the results are printed in the textbox for the user. Please see video demo in the link below. 
     
     
 
