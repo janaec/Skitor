@@ -61,7 +61,7 @@ function generate() {
     if(options.isNumber) {
         superArray = superArray.concat(numberArray)
     }
-
+//  for loop ofr pass password to repeat
     for(var i = 0; i < options.confirmLength; i++) {
         var index = Math.floor(Math.random() * superArray.length);
         var digit = superArray[index];
@@ -73,6 +73,6 @@ function generate() {
     console.log(password)
 
     var passDisplay = document.getElementById("password");
-
+// producing the results on the page
     passDisplay.textContent = password;
 }
