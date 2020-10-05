@@ -27,10 +27,10 @@ function askForOptions() {
     }
     //ask for char type
 
-    var isLower = confirm("lower?")
-    var isUpper = confirm("upper?")
-    var isSpecial= confirm("special?")
-    var isNumber=confirm("number?")
+    var isLower = confirm("Would you like lower case letters?")
+    var isUpper = confirm("Would you like Upper case letter?")
+    var isSpecial= confirm("Would you like special characters?")
+    var isNumber=confirm("Would you like numbers?")
 
     if (isLower === false && isUpper === false && isSpecial === false && isNumber === false ) {
         alert("please choose at least one character type");
