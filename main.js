@@ -18,9 +18,9 @@ console.log(numberArray);
 //function to generate a random password
 
 function askForOptions() {
-    var confirmLength = parseInt(prompt("how long?"));
+    var confirmLength = parseInt(prompt("how long would you like your passwor to be? Please choose between 8 to 128!"));
     console.log(confirmLength)
-
+// if number chosen is below 8 characters or above 128 characters or not a number
     if (isNaN(confirmLength) || confirmLength < 8 || confirmLength > 128) {
         alert("please choose valid number");
         return;
